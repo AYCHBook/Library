@@ -160,7 +160,7 @@ GEM
     creole (0.5.0)
     css_parser (1.7.0)
       addressable
-    dalli (2.7.10)
+    dalli (3.2.3)
     database_cleaner (1.7.0)
     deb_control (0.0.1)
     debug_inspector (0.0.3)
@@ -367,7 +367,9 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.0331)
-    mimemagic (0.3.3)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.0)
